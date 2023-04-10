@@ -3,7 +3,7 @@ version: "3.8"
 services:
   item-app:
     restart: on-failure
-    image: item-app:v1
+    image: mdiono/item-app:v1
     ports:
       - 80:8080
    
